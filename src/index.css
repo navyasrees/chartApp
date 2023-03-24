@@ -1,0 +1,66 @@
+:root {
+  font-family: "Italianno", cursive;
+  font-family: "Signika Negative", sans-serif;
+}
+:not(:root):fullscreen::backdrop {
+  background-color: white !important;
+  z-index: 1;
+}
+.ActiveElement {
+  color: rgba(26, 36, 58, 1) !important;
+  border-bottom: 3px solid #4b40ee;
+  padding-bottom: 20px;
+}
+.financialChartIndicatorMenu,
+.financialChartTypePickerDropDownButton,
+.ui-zoomslider-container {
+  display: none !important;
+}
+.financialChartRangeSelector {
+  position: relative;
+  left: 200px;
+  bottom: 25px;
+  width: 50%;
+  margin: 0 !important;
+  gap: 34px !important;
+  padding-right: 40px;
+}
+.financialChartToolbar {
+  background-color: white !important;
+  border: none !important;
+}
+.horizanalLine {
+  position: relative;
+  bottom: 20px;
+  border: 1px solid rgba(239, 241, 243, 1);
+}
+.financialChartRangeSelectorLabelSpan {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #6f7177;
+}
+.financialChartRangeSelector {
+  display: none !important;
+}
+.financialChartRangeSelectorLabel input:checked + span {
+  background-color: rgba(75, 64, 238, 1) !important;
+  border-radius: 5px;
+  color: white !important;
+  padding: 20px;
+}
+.fullscreen-enabled .chart {
+  background: white !important;
+}
+.financialChartMainGrid {
+  margin-left: -30px;
+}
+.activeButton {
+  background-color: #4b40ee !important;
+  color: white !important;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
